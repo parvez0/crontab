@@ -9,7 +9,7 @@ WORKDIR /app
 COPY . /app
 
 # Volume should be mounted 
-VOLUME /etc/cron.d
+VOLUME /etc/cron.d/cron
 
 # Run the command on container startup
 ENTRYPOINT ["/app/entrypoint.sh"]
