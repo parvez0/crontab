@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.10
 MAINTAINER parvez@grokkertech.com
 
 RUN apt-get update && apt-get -y install cron
