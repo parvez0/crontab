@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:groovy-20210614
 MAINTAINER parvez@grokkertech.com
 
 RUN apt-get update && apt-get -y install cron
