@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 MAINTAINER parvez@grokkertech.com
 
 RUN apt-get update && apt-get -y install cron
